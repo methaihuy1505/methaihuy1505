@@ -25,3 +25,10 @@ I am a passionate **full-stack developer** with a strong interest in both front-
   <source media="(prefers-color-scheme: light)" srcset="output/github-snake.svg" />
   <img alt="github-snake" src="output/github-snake.svg" />
 </picture>
+
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=output/ball.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="output/ball.svg" />
+  <img alt="ball" src="output/ball.svg" />
+</picture>
