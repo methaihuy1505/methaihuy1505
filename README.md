@@ -1,3 +1,4 @@
+<img src="https://tenten.vn/tin-tuc/wp-content/uploads/2022/08/Lam-dep-code.jpg" alt="GitHub Banner" width="100%" />
 # Hi, I'm Thái Huy 👋
 
 I am a passionate **full-stack developer** with a strong interest in both front-end and back-end technologies. I love building full-fledged applications and continuously learning new technologies.
