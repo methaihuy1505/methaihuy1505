@@ -1,0 +1,90 @@
+<svg width="300" height="300" viewBox="0 0 250 275" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </defs>
+  <rect width="250" height="275" fill="url(#bg)"/>
+
+  <!-- Decorative grid (optional) -->
+
+  <g fill="none" stroke="#555" stroke-width="1">
+    <defs><rect id="cell" width="50" height="50"/></defs>
+    <use href="#cell" x="0"   y="50"/>
+    <use href="#cell" x="50"  y="50"/>
+    <use href="#cell" x="100" y="50"/>
+    <use href="#cell" x="150" y="50"/>
+    <use href="#cell" x="200" y="50"/>
+    <use href="#cell" x="0"   y="100"/>
+    <use href="#cell" x="50"  y="100"/>
+    <use href="#cell" x="100" y="100"/>
+    <use href="#cell" x="150" y="100"/>
+    <use href="#cell" x="200" y="100"/>
+    <use href="#cell" x="0"   y="150"/>
+    <use href="#cell" x="50"  y="150"/>
+    <use href="#cell" x="100" y="150"/>
+    <use href="#cell" x="150" y="150"/>
+    <use href="#cell" x="200" y="150"/>
+  </g>
+
+  <!-- 1) L-shape (đỏ) -->
+
+  <g filter="url(#shadow)" fill="url(#grad-red)" transform="translate(0,-200)">
+    <rect width="50" height="50" x="0"   y="50"/>
+    <rect width="50" height="50" x="0"   y="100"/>
+    <rect width="50" height="50" x="0"   y="150"/>
+    <rect width="50" height="50" x="50"  y="150"/>
+    <animateTransform attributeName="transform" type="translate"
+      from="0,-200" to="0,0"
+      dur="2s" begin="0s"
+      calcMode="linear"
+      fill="freeze"/>
+  </g>
+
+  <!-- 2) T-shape Upright (xanh dương) -->
+
+  <g filter="url(#shadow)" fill="url(#grad-blue)" transform="translate(0,-250)">
+    <rect width="50" height="50" x="100" y="150"/>
+    <rect width="50" height="50" x="150" y="150"/>
+    <rect width="50" height="50" x="200" y="150"/>
+    <rect width="50" height="50" x="150" y="50"/>
+    <rect width="50" height="50" x="150" y="100"/>
+    <animateTransform attributeName="transform" type="translate"
+      from="0,-250" to="0,0"
+      dur="2s" begin="2s"
+      calcMode="linear"
+      fill="freeze"/>
+  </g>
+
+  <!-- 3) I-shape (lục) -->
+
+  <g filter="url(#shadow)" fill="url(#grad-green)" transform="translate(0,-250)">
+    <rect width="50" height="50" x="200" y="50"/>
+    <rect width="50" height="50" x="200" y="100"/>
+    <animateTransform attributeName="transform" type="translate"
+      from="0,-250" to="0,0"
+      dur="2s" begin="4s"
+      calcMode="linear"
+      fill="freeze"/>
+  </g>
+
+  <!-- 4) Square (vàng) -->
+
+  <g filter="url(#shadow)" fill="url(#grad-yellow)" transform="translate(0,-250)">
+    <rect width="50" height="50" x="50"  y="50"/>
+    <rect width="50" height="50" x="100" y="50"/>
+    <rect width="50" height="50" x="50"  y="100"/>
+    <rect width="50" height="50" x="100" y="100"/>
+    <animateTransform attributeName="transform" type="translate"
+      from="0,-250" to="0,0"
+      dur="2s" begin="6s"
+      calcMode="linear"
+      fill="freeze"/>
+  </g>
+
+  <!-- Fade & loop -->
+
+<animate attributeName="opacity"
+ values="1;1;0;1" keyTimes="0;0.75;0.85;1"
+ dur="8s" repeatCount="indefinite"/> </svg>
