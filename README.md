@@ -19,9 +19,8 @@ I am a passionate **full-stack developer** with a strong interest in both front-
   <img src="https://img.shields.io/badge/-Figma-F24E1E?style=flat&logo=figma&logoColor=white" />
   <img src="https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white" />
 </p>
-<div style="display: flex; justify-content: center; width: 100%;">
 
-  <img src="https://media.giphy.com/media/3o6Zt9ztdg41IYXaQs/giphy.gif" style="width: 100%; height: auto;" alt="Cool GIF">
-
+<div style="width: 100%; margin-top: 20px;">
+  <img src="https://media.giphy.com/media/26ufpEv6TyyTLwMgA/giphy.gif" style="width: 100%; height: auto;" alt="Full Width GIF">
 </div>
 
