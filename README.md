@@ -20,7 +20,8 @@ I am a passionate **full-stack developer** with a strong interest in both front-
   <img src="https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white" />
 </p>
 
-<div style="width: 100%; margin-top: 20px;">
-  <img src="https://media.giphy.com/media/26ufpEv6TyyTLwMgA/giphy.gif" style="width: 100%; height: auto;" alt="Full Width GIF">
-</div>
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="output/github-snake.svg" />
+  <img alt="github-snake" src="output/github-snake.svg" />
+</picture>
