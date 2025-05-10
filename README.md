@@ -19,29 +19,13 @@ I am a passionate **full-stack developer** with a strong interest in both front-
   <img src="https://img.shields.io/badge/-Figma-F24E1E?style=flat&logo=figma&logoColor=white" />
   <img src="https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white" />
 </p>
-<style>
-  /* Cách 1: Thẻ picture là phần tử block */
-  picture {
-    display: block;
-    margin: 0 auto;
-  }
-
-  /* Hoặc cách 2: dùng text-align trên container cha */
-  .center-container {
-    text-align: center;
-  }
-  .center-container picture {
-    display: inline-block;
-  }
-</style>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset=output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="output/github-snake.svg" />
   <img alt="github-snake" src="output/github-snake.svg" />
 </picture>
 
-
-<picture class="center-container">
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset=output/ball.svg" />
   <source media="(prefers-color-scheme: light)" srcset="output/ball.svg" />
   <img alt="ball" src="output/ball.svg" />
