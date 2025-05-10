@@ -1,4 +1,4 @@
-<img src="https://anonyviet.com/wp-content/uploads/2018/09/Screenshot-from-2018-09-02-17-48-24.jpeg" alt="GitHub Banner" width="100%" />
+<img src="https://topdev.vn/blog/wp-content/uploads/2017/04/coder.png" alt="GitHub Banner" width="100%" />
 # Hi, I'm Thái Huy 👋
 
 I am a passionate **full-stack developer** with a strong interest in both front-end and back-end technologies. I love building full-fledged applications and continuously learning new technologies.
