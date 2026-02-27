@@ -18,8 +18,8 @@ I am a passionate **full-stack developer** with a strong interest in both front-
   <img src="https://img.shields.io/badge/-Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white" />
   <img src="https://img.shields.io/badge/-Figma-F24E1E?style=flat&logo=figma&logoColor=white" />
   <img src="https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Postman-FF6C37?style=flat&logo=postman&logoColor=white" />
 </p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset=output/github-snake-dark.svg" />
